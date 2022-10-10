@@ -12,7 +12,7 @@ inputs:
 - key: "AC_SIGNED_AAB_PATH"
   title: "Signed AAB Path"
   isRequired: true
-  defaultValue: "AC_SIGNED_AAB_PATH"
+  defaultValue: "$AC_SIGNED_AAB_PATH"
   description: Path of the signed aab file.
   helpText:
 - key: "AC_ANDROID_KEYSTORE_PATH"
