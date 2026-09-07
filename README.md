@@ -17,3 +17,13 @@ Generates an universal APK from an AAB
 ## Output Variables
 
 - `AC_SIGNED_APK_PATH`: Signed APK Path. Path of the signed apk file.
+
+## Running tests
+
+Requires [RSpec](https://rspec.info) gem and Ruby standard library (Coverage, Open3). No Gemfile or Bundler needed.
+
+```bash
+ruby test/test_main.rb
+```
+
+A coverage report is printed at the end of each run.
